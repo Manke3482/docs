@@ -476,19 +476,19 @@ named here use Mojang mappings regardless of the server.
 
 ### allow-headless-pistons
 
-- **default**: `false`
+- **default**: `true`
 - **description**: Whether the server should allow the creation of headless pistons. These are often
   used to break permanent blocks.
 
 ### allow-permanent-block-break-exploits
 
-- **default**: `false`
+- **default**: `true`
 - **description**: Whether unbreakable blocks can be broken with vanilla exploits. This includes
   bedrock, end portal frames, end portal blocks, and more.
 
 ### allow-piston-duplication
 
-- **default**: `false`
+- **default**: `true`
 - **description**: Whether to allow duplication of TNT, carpets, and rails. This does not control
   sand duplication.
 
